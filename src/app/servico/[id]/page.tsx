@@ -547,3 +547,9 @@ export default function ServiceDetail() {
     </main>
   );
 }
+
+export async function generateStaticParams() {
+  return services.map((service) => ({
+    id: service.id,
+  }));
+}
