@@ -1,1 +1,548 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZVBhcmFtcyB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCB7IG1vdGlvbiwgQW5pbWF0ZVByZXNlbmNlIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCB7CiAgU3RhciwKICBDbG9jaywKICBCYWRnZUNoZWNrLAogIFNoaWVsZCwKICBDaGV2cm9uTGVmdCwKICBIZWFydCwKICBTaGFyZTIsCiAgTWFwUGluLAogIENhbGVuZGFyLAogIFphcCwKICBDaGVjaywKICBDcmVkaXRDYXJkLAogIEFycm93UmlnaHQsCiAgQXJyb3dMZWZ0LAogIENoZWNrQ2lyY2xlMiwKICBNZXNzYWdlQ2lyY2xlLAogIFJlZnJlc2hDY3csCiAgVXNlckNoZWNrLAogIFgsCn0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IEhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0L0hlYWRlciI7CmltcG9ydCBGb290ZXIgZnJvbSAiQC9jb21wb25lbnRzL2xheW91dC9Gb290ZXIiOwppbXBvcnQgeyBzZXJ2aWNlcywgZm9ybWF0Q3VycmVuY3kgfSBmcm9tICJAL2RhdGEvbW9jayI7Cgp0eXBlIE9yZGVyU3RlcCA9ICJpZGxlIiB8ICJwYWNrYWdlIiB8ICJwYXltZW50IiB8ICJzdWNjZXNzIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNlcnZpY2VEZXRhaWwoKSB7CiAgY29uc3QgcGFyYW1zID0gdXNlUGFyYW1zKCk7CiAgY29uc3Qgc2VydmljZSA9IHNlcnZpY2VzLmZpbmQoKHMpID0+IHMuaWQgPT09IHBhcmFtcy5pZCkgfHwgc2VydmljZXNbMF07CiAgY29uc3QgW3NlbGVjdGVkUGFja2FnZSwgc2V0U2VsZWN0ZWRQYWNrYWdlXSA9IHVzZVN0YXRlKDEpOwogIGNvbnN0IFtvcmRlclN0ZXAsIHNldE9yZGVyU3RlcF0gPSB1c2VTdGF0ZTxPcmRlclN0ZXA+KCJpZGxlIik7CiAgY29uc3QgW3NlbGVjdGVkSW1hZ2UsIHNldFNlbGVjdGVkSW1hZ2VdID0gdXNlU3RhdGUoMCk7CgogIGNvbnN0IHBrZyA9IHNlcnZpY2UucGFja2FnZXNbc2VsZWN0ZWRQYWNrYWdlXTsKCiAgcmV0dXJuICgKICAgIDxtYWluIGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLXdoaXRlIj4KICAgICAgPEhlYWRlciAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtMTYgbGc6cHQtWzcycHhdIj4KICAgICAgICB7LyogQnJlYWRjcnVtYiAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcHktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWdyYXktNDAwIj4KICAgICAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWdyYXktNjAwIHRyYW5zaXRpb24tY29sb3JzIj5JbsOtY2lvPC9MaW5rPgogICAgICAgICAgICA8c3Bhbj4vPC9zcGFuPgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9idXNjYSIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImhvdmVyOnRleHQtZ3JheS02MDAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICBTZXJ2acOnb3MKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8c3Bhbj4vPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS02MDAgdHJ1bmNhdGUiPntzZXJ2aWNlLnRpdGxlfTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcGItMjAiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmdyaWQgbGc6Z3JpZC1jb2xzLTMgbGc6Z2FwLTEwIj4KICAgICAgICAgICAgey8qIExlZnQgQ29sdW1uICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGc6Y29sLXNwYW4tMiI+CiAgICAgICAgICAgICAgey8qIEdhbGxlcnkgKi99CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTgiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC12aWRlbyByb3VuZGVkLTJ4bCBvdmVyZmxvdy1oaWRkZW4gYmctZ3JheS0xMDAgbWItMyI+CiAgICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgICBzcmM9e3NlcnZpY2UuZ2FsbGVyeVtzZWxlY3RlZEltYWdlXSB8fCBzZXJ2aWNlLmltYWdlfQogICAgICAgICAgICAgICAgICAgIGFsdD17c2VydmljZS50aXRsZX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTQgcmlnaHQtNCBwLTIgZ2xhc3Mgcm91bmRlZC14bCBob3ZlcjpiZy13aGl0ZS85MCB0cmFuc2l0aW9uLWFsbCI+CiAgICAgICAgICAgICAgICAgICAgPEhlYXJ0IGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LWdyYXktNjAwIiAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC00IHJpZ2h0LTE0IHAtMiBnbGFzcyByb3VuZGVkLXhsIGhvdmVyOmJnLXdoaXRlLzkwIHRyYW5zaXRpb24tYWxsIj4KICAgICAgICAgICAgICAgICAgICA8U2hhcmUyIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LWdyYXktNjAwIiAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAge3NlcnZpY2UuZ2FsbGVyeS5sZW5ndGggPiAxICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIgb3ZlcmZsb3cteC1hdXRvIHBiLTIiPgogICAgICAgICAgICAgICAgICAgIHtzZXJ2aWNlLmdhbGxlcnkubWFwKChpbWcsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTZWxlY3RlZEltYWdlKGkpfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4LXNocmluay0wIHctMjAgaC0xNCByb3VuZGVkLXhsIG92ZXJmbG93LWhpZGRlbiBib3JkZXItMiB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgICAgICAgICAgIGkgPT09IHNlbGVjdGVkSW1hZ2UgPyAiYm9yZGVyLWJyYW5kLTUwMCIgOiAiYm9yZGVyLXRyYW5zcGFyZW50IG9wYWNpdHktNjAgaG92ZXI6b3BhY2l0eS0xMDAiCiAgICAgICAgICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17aW1nfSBhbHQ9IiIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciIgLz4KICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIHsvKiBUaXRsZSAqL30KICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBzbTp0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCB0cmFja2luZy10aWdodCBtYi00Ij4KICAgICAgICAgICAgICAgIHtzZXJ2aWNlLnRpdGxlfQogICAgICAgICAgICAgIDwvaDE+CgogICAgICAgICAgICAgIHsvKiBTZWxsZXIgSW5mbyAqL30KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgbWItNiBwYi02IGJvcmRlci1iIGJvcmRlci1ncmF5LTEwMCI+CiAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgIHNyYz17c2VydmljZS5zZWxsZXIuYXZhdGFyfQogICAgICAgICAgICAgICAgICBhbHQ9e3NlcnZpY2Uuc2VsbGVyLm5hbWV9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYmctZ3JheS0xMDAiCiAgICAgICAgICAgICAgICAgIHdpZHRoPXs0OH0KICAgICAgICAgICAgICAgICAgaGVpZ2h0PXs0OH0KICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IDQ4LCBoZWlnaHQ6IDQ4LCBib3JkZXJSYWRpdXM6IDE2IH19CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZ3JheS05MDAiPntzZXJ2aWNlLnNlbGxlci5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICB7c2VydmljZS5zZWxsZXIuaXNLeWNWZXJpZmllZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8QmFkZ2VDaGVjayBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1icmFuZC01MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICB7c2VydmljZS5zZWxsZXIuaXNUb3BTZWxsZXIgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LXNlbWlib2xkIHB4LTIgcHktMC41IGJnLWFtYmVyLTUwIHRleHQtYW1iZXItNjAwIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWFtYmVyLTEwMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIFRPUCBTRUxMRVIKICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZ3JheS01MDAiPntzZXJ2aWNlLnNlbGxlci50aXRsZX08L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgIDxTdGFyIGNsYXNzTmFtZT0idy00IGgtNCBmaWxsLWFtYmVyLTQwMCB0ZXh0LWFtYmVyLTQwMCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj57c2VydmljZS5yYXRpbmd9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTQwMCI+KHtzZXJ2aWNlLnJldmlld0NvdW50fSk8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgey8qIERlc2NyaXB0aW9uICovfQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi04Ij4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LWdyYXktOTAwIG1iLTMiPlNvYnJlIGVzdGUgc2VydmnDp288L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNjAwIGxlYWRpbmctcmVsYXhlZCB3aGl0ZXNwYWNlLXByZS1saW5lIj4KICAgICAgICAgICAgICAgICAge3NlcnZpY2UuZGVzY3JpcHRpb259CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIHsvKiBUYWdzICovfQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiBtYi04Ij4KICAgICAgICAgICAgICAgIHtzZXJ2aWNlLnRhZ3MubWFwKCh0YWcpID0+ICgKICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICBrZXk9e3RhZ30KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMSBiZy1ncmF5LTUwIGJvcmRlciBib3JkZXItZ3JheS0xMDAgcm91bmRlZC1mdWxsIHRleHQteHMgdGV4dC1ncmF5LTYwMCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt0YWd9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIHsvKiBTZWxsZXIgRGV0YWlscyAqL30KICAgICAgICAgICAgICBkaXYgY2xhc3NOYW1lPSJwLTYgYmctZ3JheS01MCByb3VuZGVkLTJ4bCBtYi04Ij4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LWdyYXktOTAwIG1iLTMiPlNvYnJlIG8gVmVuZGVkb3I8L2gzPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgc206Z3JpZC1jb2xzLTQgZ2FwLTQiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgIDxNYXBQaW4gY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtZ3JheS00MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZ3JheS02MDAiPntzZXJ2aWNlLnNlbGxlci5sb2NhdGlvbn08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgIDxDYWxlbmRhciBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1ncmF5LTQwMCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTYwMCI+RGVzZGUge3NlcnZpY2Uuc2VsbGVyLm1lbWJlclNpbmNlXTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPFphcCBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1ncmF5LTQwMCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTYwMCI+e3NlcnZpY2Uuc2VsbGVyLnJlc3BvbnNlVGltZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtZ3JheS00MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZ3JheS02MDAiPntzZXJ2aWNlLnNlbGxlci5jb21wbGV0aW9uUmF0ZX0lIGNvbXBsZXRvPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsvKiBSZXZpZXdzICovfQogICAgICAgICAgICAgICAge3NlcnZpY2UucmV2aWV3cy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1ncmF5LTkwMCBtYi00Ij4KICAgICAgICAgICAgICAgICAgICAgIEF2YWxpYcOnw7VlcyAoe3NlcnZpY2UucmV2aWV3Q291bnR9KQogICAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAgICAgICAgICB7c2VydmljZS5yZXZpZXdzLm1hcCgocmV2aWV3KSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtyZXZpZXcuaWR9IGNsYXNzTmFtZT0icC00IGJvcmRlciBib3JkZXItZ3JheS0xMDAgcm91bmRlZC0yeGwiPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17cmV2aWV3LmF2YXRhcn0gYWx0PXtyZXZpZXcudXNlcn0gY2xhc3NOYW1lPSJ3LTggaC04IHJvdW5kZWQtZnVsbCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e3Jldmlldy51c2VyfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7QXJyYXkuZnJvbSh7IGxlbmd0aDogNSB9KS5tYXAoKF8sIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxTdGFyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgdy0zIGgtMyAke2kgPCByZXZpZXcucmF0aW5nID8gImZpbGwtYW1iZXItNDAwIHRleHQtYW1iZXItNDAwIiA6ICJ0ZXh0LWdyYXktMjAwIn1gfSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtZ3JheS00MDAgbWwtMSI+e3Jldmlldy5kYXRlfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTYwMCBtdC0yIj57cmV2aWV3LmNvbW1lbnR9PC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC02IGJnLWdyYXktMzAwIHJvdW5kZWQtM3hsIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIG1iLTUiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZ3JheS05MDAiPntmb3JtYXRDdXJyZW5jeShwa2cucHJpY2UpfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCBtYi01IHRleHQtc20gdGV4dC1ncmF5LTUwMCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgPENsb2NrIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWdyYXktNTAwIiAvPgogICAgICAgICAgICAgICAgICAgICAge3BrZy5kZWxpdmVyeURheXN9IGRpYXM8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICA8UmVmcmVzaENjdyBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICAgICAgICAgICAgICB7cGtnLnJldmlzaW9ucyA9PT0gLTEgPyAi4oieIiA6IHBrZy5yZXZpc2lvbnN9IHJldmlzw7VlczwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8Rm9vdGVyIC8+CiAgICAgIDwvZGl2PgogICAgPC9tYWluPgogICk7Cn0K
+"use client";
+
+import { useState } from "react";
+import { useParams } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  Star,
+  Clock,
+  BadgeCheck,
+  Shield,
+  ChevronLeft,
+  Heart,
+  Share2,
+  MapPin,
+  Calendar,
+  Zap,
+  Check,
+  CreditCard,
+  ArrowRight,
+  ArrowLeft,
+  CheckCircle2,
+  MessageCircle,
+  RefreshCcw,
+  UserCheck,
+  X,
+} from "lucide-react";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import { services, formatCurrency } from "@/data/mock";
+
+type OrderStep = "idle" | "package" | "payment" | "success";
+
+export default function ServiceDetail() {
+  const params = useParams();
+  const service = services.find((s) => s.id === params.id) || services[0];
+  const [selectedPackage, setSelectedPackage] = useState(1);
+  const [orderStep, setOrderStep] = useState<OrderStep>("idle");
+  const [selectedImage, setSelectedImage] = useState(0);
+
+  const pkg = service.packages[selectedPackage];
+
+  return (
+    <main className="min-h-screen bg-white">
+      <Header />
+      <div className="pt-16 lg:pt-[72px]">
+        {/* Breadcrumb */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center gap-2 text-sm text-gray-400">
+            <Link href="/" className="hover:text-gray-600 transition-colors">Inicio</Link>
+            <span>/</span>
+            <Link href="/busca" className="hover:text-gray-600 transition-colors">Servicos</Link>
+            <span>/</span>
+            <span className="text-gray-600 truncate">{service.title}</span>
+          </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+          <div className="lg:grid lg:grid-cols-3 lg:gap-10">
+            {/* Left Column */}
+            <div className="lg:col-span-2">
+              {/* Gallery */}
+              <div className="mb-8">
+                <div className="relative aspect-video rounded-2xl overflow-hidden bg-gray-100 mb-3">
+                  <img
+                    src={service.gallery[selectedImage] || service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <button className="absolute top-4 right-4 p-2 glass rounded-xl hover:bg-white/90 transition-all">
+                    <Heart className="w-5 h-5 text-gray-600" />
+                  </button>
+                  <button className="absolute top-4 right-14 p-2 glass rounded-xl hover:bg-white/90 transition-all">
+                    <Share2 className="w-5 h-5 text-gray-600" />
+                  </button>
+                </div>
+                {service.gallery.length > 1 && (
+                  <div className="flex gap-2 overflow-x-auto pb-2">
+                    {service.gallery.map((img, i) => (
+                      <button
+                        key={i}
+                        onClick={() => setSelectedImage(i)}
+                        className={`flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 transition-all ${
+                          i === selectedImage ? "border-brand-500" : "border-transparent opacity-60 hover:opacity-100"
+                        }`}
+                      >
+                        <img src={img} alt="" className="w-full h-full object-cover" />
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Title */}
+              <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight mb-4">
+                {service.title}
+              </h1>
+
+              {/* Seller Info */}
+              <div className="flex items-center gap-4 mb-6 pb-6 border-b border-gray-100">
+                <img
+                  src={service.seller.avatar}
+                  alt={service.seller.name}
+                  className="rounded-2xl bg-gray-100"
+                  width={48}
+                  height={48}
+                  style={{ width: 48, height: 48, borderRadius: 16 }}
+                />
+                <div className="flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-900">{service.seller.name}</span>
+                    {service.seller.isKycVerified && (
+                      <BadgeCheck className="w-3.5 h-3.5 text-brand-500" />
+                    )}
+                    {service.seller.isTopSeller && (
+                      <span className="text-[10px] font-semibold px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full border border-amber-100">
+                        TOP SELLER
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-sm text-gray-500">{service.seller.title}</p>
+                </div>
+                <div className="flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                  <span className="font-semibold">{service.rating}</span>
+                  <span className="text-sm text-gray-400">({service.reviewCount})</span>
+                </div>
+              </div>
+
+              {/* Description */}
+              <div className="mb-8">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Sobre este servico</h3>
+                <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                  {service.description}
+                </p>
+              </div>
+
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 mb-8">
+                {service.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 bg-gray-50 border border-gray-100 rounded-full text-xs text-gray-600"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
+              {/* Seller Details */}
+              <div className="p-6 bg-gray-50 rounded-2xl mb-8">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Sobre o Vendedor</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-gray-400" />
+                    <span className="text-sm text-gray-600">{service.seller.location}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Calendar className="w-4 h-4 text-gray-400" />
+                    <span className="text-sm text-gray-600">Desde {service.seller.memberSince}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Zap className="w-4 h-4 text-gray-400" />
+                    <span className="text-sm text-gray-600">{service.seller.responseTime}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-gray-400" />
+                    <span className="text-sm text-gray-600">{service.seller.completionRate}% completo</span>
+                  </div>
+                </div>
+                {service.seller.isKycVerified && (
+                  <div className="mt-4 flex items-center gap-2 px-3 py-2 bg-green-50 rounded-xl">
+                    <UserCheck className="w-4 h-4 text-green-600" />
+                    <span className="text-sm font-medium text-green-700">Identidade Verificada (KYC)</span>
+                  </div>
+                )}
+              </div>
+
+              {/* Reviews */}
+              {service.reviews.length > 0 && (
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                    Avaliacoes ({service.reviewCount})
+                  </h3>
+                  <div className="space-y-4">
+                    {service.reviews.map((review) => (
+                      <div key={review.id} className="p-4 border border-gray-100 rounded-2xl">
+                        <div className="flex items-center gap-3 mb-2">
+                          <img
+                            src={review.avatar}
+                            alt={review.user}
+                            className="rounded-full bg-gray-100"
+                            width={32}
+                            height={32}
+                            style={{ width: 32, height: 32, borderRadius: "50%" }}
+                          />
+                          <div>
+                            <p className="text-sm font-medium text-gray-900">{review.user}</p>
+                            <div className="flex items-center gap-1">
+                              {Array.from({ length: 5 }).map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-3 h-3 ${
+                                    i < review.rating
+                                      ? "fill-amber-400 text-amber-400"
+                                      : "text-gray-200"
+                                  }`}
+                                />
+                              ))}
+                              <span className="text-xs text-gray-400 ml-1">{review.date}</span>
+                            </div>
+                          </div>
+                        </div>
+                        <p className="text-sm text-gray-600">{review.comment}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Right Column - Pricing */}
+            <div className="lg:col-span-1 mt-8 lg:mt-0">
+              <div className="lg:sticky lg:top-24">
+                {/* Package Tabs */}
+                <div className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl shadow-gray-200/40">
+                  <div className="flex border-b border-gray-100">
+                    {service.packages.map((p, i) => (
+                      <button
+                        key={p.name}
+                        onClick={() => setSelectedPackage(i)}
+                        className={`flex-1 py-3.5 text-sm font-medium transition-all ${
+                          i === selectedPackage
+                            ? "text-brand-600 border-b-2 border-brand-500 bg-brand-50/30"
+                            : "text-gray-500 hover:text-gray-700"
+                        }`}
+                      >
+                        {p.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  <div className="p-6">
+                    <div className="flex items-baseline justify-between mb-5">
+                      <span className="text-3xl font-bold text-gray-900">
+                        {formatCurrency(pkg.price)}
+                      </span>
+                    </div>
+
+                    <div className="flex items-center gap-4 mb-5 text-sm text-gray-500">
+                      <div className="flex items-center gap-1.5">
+                        <Clock className="w-4 h-4" />
+                        {pkg.deliveryDays} dias de entrega
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        <RefreshCcw className="w-4 h-4" />
+                        {pkg.revisions === -1 ? "inf" : pkg.revisions} revisoes
+                      </div>
+                    </div>
+
+                    <ul className="space-y-2.5 mb-6">
+                      {pkg.features.map((feature) => (
+                        <li key={feature} className="flex items-center gap-2.5 text-sm">
+                          <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+                          <span className="text-gray-700">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    <button
+                      onClick={() => setOrderStep("package")}
+                      className="w-full py-3.5 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-sm font-semibold rounded-2xl hover:from-brand-600 hover:to-brand-700 transition-all shadow-lg shadow-brand-500/25"
+                    >
+                      Encomendar - {formatCurrency(pkg.price)}
+                    </button>
+
+                    <Link
+                      href="/mensagens"
+                      className="flex items-center justify-center gap-2 w-full mt-3 py-3 border border-gray-200 text-sm font-medium text-gray-700 rounded-2xl hover:bg-gray-50 transition-all"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                      Contactar Vendedor
+                    </Link>
+                  </div>
+
+                  {/* Trust badges */}
+                  <div className="px-6 pb-6">
+                    <div className="flex items-center gap-4 py-3 px-4 bg-gray-50 rounded-2xl">
+                      <div className="flex items-center gap-1.5 text-xs text-gray-500">
+                        <Shield className="w-3.5 h-3.5 text-green-500" />
+                        Escrow
+                      </div>
+                      <div className="flex items-center gap-1.5 text-xs text-gray-500">
+                        <CreditCard className="w-3.5 h-3.5 text-purple-500" />
+                        Multicaixa
+                      </div>
+                      <div className="flex items-center gap-1.5 text-xs text-gray-500">
+                        <BadgeCheck className="w-3.5 h-3.5 text-brand-500" />
+                        Verificado
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Order Flow Modal */}
+        <AnimatePresence>
+          {orderStep !== "idle" && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 backdrop-blur-sm p-4"
+              onClick={() => setOrderStep("idle")}
+            >
+              <motion.div
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 100, opacity: 0 }}
+                transition={{ type: "spring", damping: 25 }}
+                className="w-full max-w-lg bg-white rounded-3xl overflow-hidden shadow-2xl"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {/* Steps Indicator */}
+                <div className="flex items-center justify-between px-6 pt-6 pb-4">
+                  <div className="flex items-center gap-2">
+                    {["Pacote", "Pagamento", "Sucesso"].map((step, i) => {
+                      const stepIndex = i;
+                      const currentIndex = orderStep === "package" ? 0 : orderStep === "payment" ? 1 : 2;
+                      return (
+                        <div key={step} className="flex items-center gap-2">
+                          <div
+                            className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all ${
+                              stepIndex <= currentIndex
+                                ? "bg-brand-500 text-white"
+                                : "bg-gray-100 text-gray-400"
+                            }`}
+                          >
+                            {stepIndex < currentIndex ? <Check className="w-3.5 h-3.5" /> : stepIndex + 1}
+                          </div>
+                          <span
+                            className={`text-xs font-medium hidden sm:block ${
+                              stepIndex <= currentIndex ? "text-gray-900" : "text-gray-400"
+                            }`}
+                          >
+                            {step}
+                          </span>
+                          {i < 2 && <div className={`w-6 h-px ${stepIndex < currentIndex ? "bg-brand-500" : "bg-gray-200"}`} />}
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <button
+                    onClick={() => setOrderStep("idle")}
+                    className="p-1.5 hover:bg-gray-100 rounded-lg transition-colors"
+                  >
+                    <X className="w-5 h-5 text-gray-400" />
+                  </button>
+                </div>
+
+                <div className="px-6 pb-6">
+                  {/* Step 1: Package Confirmation */}
+                  {orderStep === "package" && (
+                    <motion.div
+                      initial={{ opacity: 0, x: 20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                    >
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">Confirmar Pacote</h3>
+                      <p className="text-sm text-gray-500 mb-6">Revise os detalhes da sua encomenda</p>
+
+                      <div className="p-4 bg-gray-50 rounded-2xl mb-4">
+                        <div className="flex items-center justify-between mb-3">
+                          <span className="text-sm font-semibold text-gray-900">{pkg.label}</span>
+                          <span className="text-lg font-bold text-gray-900">{formatCurrency(pkg.price)}</span>
+                        </div>
+                        <div className="flex items-center gap-4 text-xs text-gray-500 mb-3">
+                          <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {pkg.deliveryDays} dias</span>
+                          <span className="flex items-center gap-1"><RefreshCcw className="w-3 h-3" /> {pkg.revisions === -1 ? "inf" : pkg.revisions} revisoes</span>
+                        </div>
+                        <ul className="space-y-1.5">
+                          {pkg.features.map((f) => (
+                            <li key={f} className="flex items-center gap-2 text-xs text-gray-600">
+                              <Check className="w-3 h-3 text-green-500" />
+                              {f}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <div className="flex items-center gap-2 p-3 bg-green-50 rounded-xl mb-6">
+                        <Shield className="w-4 h-4 text-green-600" />
+                        <span className="text-xs text-green-700 font-medium">Pagamento protegido com Escrow - o vendedor so recebe apos a sua confirmacao</span>
+                      </div>
+
+                      <button
+                        onClick={() => setOrderStep("payment")}
+                        className="w-full flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-sm font-semibold rounded-2xl hover:from-brand-600 hover:to-brand-700 transition-all"
+                      >
+                        Continuar para Pagamento
+                        <ArrowRight className="w-4 h-4" />
+                      </button>
+                    </motion.div>
+                  )}
+
+                  {/* Step 2: Payment */}
+                  {orderStep === "payment" && (
+                    <motion.div
+                      initial={{ opacity: 0, x: 20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                    >
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">Metodo de Pagamento</h3>
+                      <p className="text-sm text-gray-500 mb-6">Escolha como pretende pagar</p>
+
+                      <div className="space-y-3 mb-6">
+                        <label className="flex items-center gap-4 p-4 border-2 border-brand-500 bg-brand-50/30 rounded-2xl cursor-pointer">
+                          <input type="radio" name="payment" defaultChecked className="w-4 h-4 text-brand-500" />
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2">
+                              <CreditCard className="w-5 h-5 text-brand-600" />
+                              <span className="text-sm font-semibold text-gray-900">Multicaixa Express</span>
+                              <span className="text-[10px] font-bold px-2 py-0.5 bg-brand-100 text-brand-700 rounded-full">RECOMENDADO</span>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Pagamento instantaneo via telemovel</p>
+                          </div>
+                        </label>
+
+                        <label className="flex items-center gap-4 p-4 border border-gray-200 rounded-2xl cursor-pointer hover:border-gray-300 transition-colors">
+                          <input type="radio" name="payment" className="w-4 h-4 text-brand-500" />
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2">
+                              <CreditCard className="w-5 h-5 text-gray-400" />
+                              <span className="text-sm font-semibold text-gray-900">Transferencia Bancaria</span>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">BAI, BFA, BIC, Standard Bank</p>
+                          </div>
+                        </label>
+
+                        <label className="flex items-center gap-4 p-4 border border-gray-200 rounded-2xl cursor-pointer hover:border-gray-300 transition-colors">
+                          <input type="radio" name="payment" className="w-4 h-4 text-brand-500" />
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2">
+                              <CreditCard className="w-5 h-5 text-gray-400" />
+                              <span className="text-sm font-semibold text-gray-900">Cartao Visa / Mastercard</span>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Pagamento internacional seguro</p>
+                          </div>
+                        </label>
+                      </div>
+
+                      <div className="p-4 bg-gray-50 rounded-2xl mb-6">
+                        <div className="flex justify-between text-sm mb-2">
+                          <span className="text-gray-500">Subtotal</span>
+                          <span className="text-gray-900">{formatCurrency(pkg.price)}</span>
+                        </div>
+                        <div className="flex justify-between text-sm mb-2">
+                          <span className="text-gray-500">Taxa de servico (5%)</span>
+                          <span className="text-gray-900">{formatCurrency(pkg.price * 0.05)}</span>
+                        </div>
+                        <div className="flex justify-between text-base font-bold pt-2 border-t border-gray-200">
+                          <span>Total</span>
+                          <span>{formatCurrency(pkg.price * 1.05)}</span>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-3">
+                        <button
+                          onClick={() => setOrderStep("package")}
+                          className="flex items-center gap-1 px-4 py-3 border border-gray-200 text-sm font-medium text-gray-700 rounded-2xl hover:bg-gray-50 transition-all"
+                        >
+                          <ArrowLeft className="w-4 h-4" />
+                          Voltar
+                        </button>
+                        <button
+                          onClick={() => setOrderStep("success")}
+                          className="flex-1 py-3.5 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-sm font-semibold rounded-2xl hover:from-brand-600 hover:to-brand-700 transition-all"
+                        >
+                          Confirmar Pagamento - {formatCurrency(pkg.price * 1.05)}
+                        </button>
+                      </div>
+                    </motion.div>
+                  )}
+
+                  {/* Step 3: Success */}
+                  {orderStep === "success" && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.95 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      className="text-center py-6"
+                    >
+                      <motion.div
+                        initial={{ scale: 0 }}
+                        animate={{ scale: 1 }}
+                        transition={{ type: "spring", damping: 12, delay: 0.2 }}
+                        className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-5"
+                      >
+                        <CheckCircle2 className="w-8 h-8 text-green-600" />
+                      </motion.div>
+
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Encomenda Confirmada!</h3>
+                      <p className="text-sm text-gray-500 mb-6 max-w-xs mx-auto">
+                        O pagamento esta em escrow. O vendedor foi notificado e ira iniciar o trabalho em breve.
+                      </p>
+
+                      <div className="p-4 bg-gray-50 rounded-2xl mb-6 text-left">
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-500">No. da Encomenda</span>
+                          <span className="font-mono text-gray-900">#B2B-2026-0847</span>
+                        </div>
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-500">Vendedor</span>
+                          <span className="text-gray-900">{service.seller.name}</span>
+                        </div>
+                        <div className="flex justify-between text-sm">
+                          <span className="text-gray-500">Entrega estimada</span>
+                          <span className="text-gray-900">{pkg.deliveryDays} dias</span>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-3">
+                        <Link
+                          href="/mensagens"
+                          className="flex-1 flex items-center justify-center gap-2 py-3 border border-gray-200 text-sm font-medium text-gray-700 rounded-2xl hover:bg-gray-50 transition-all"
+                        >
+                          <MessageCircle className="w-4 h-4" />
+                          Mensagem
+                        </Link>
+                        <button
+                          onClick={() => setOrderStep("idle")}
+                          className="flex-1 py-3 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-sm font-semibold rounded-2xl hover:from-brand-600 hover:to-brand-700 transition-all"
+                        >
+                          Concluir
+                        </button>
+                      </div>
+                    </motion.div>
+                  )}
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <Footer />
+      </div>
+    </main>
+  );
+}
