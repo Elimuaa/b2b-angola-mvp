@@ -57,13 +57,13 @@ export default function BuscaPage() {
                   type="text"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Procurar serviços, competências, vendedores..."
+                  placeholder="Procurar servicos, competencias, vendedores..."
                   className={`w-full pl-12 pr-4 py-3.5 bg-gray-50 border rounded-2xl text-sm focus:outline-none transition-all duration-300 ${
                     searchFocused
                       ? "border-brand-300 bg-white shadow-lg shadow-brand-500/10 glow-border"
                       : "border-gray-200 hover:border-gray-300"
                   }`}
-                  onFocus={() => setSeqrchFocused(true)}
+                  onFocus={() => setSearchFocused(true)}
                   onBlur={() => setSearchFocused(false)}
                 />
                 {query && (
@@ -93,7 +93,7 @@ export default function BuscaPage() {
             </div>
 
             {/* Category Pills */}
-            <div className="flex gap-2 mt-4 overflow-x-auto pb-2 -mx-4 py-4 scrollbar-hide">
+            <div className="flex gap-2 mt-4 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-hide">
               <button
                 onClick={() => setSelectedCategory(null)}
                 className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all ${
@@ -125,7 +125,7 @@ export default function BuscaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between mb-6">
             <p className="text-sm text-gray-500">
-              <strong/className="text-gray-900">{filtered.length}</strong> serviços encontrados
+              <strong className="text-gray-900">{filtered.length}</strong> servicos encontrados
               {selectedCategory && (
                 <span>
                   {" "}em <strong className="text-gray-900">{categories.find((c) => c.id === selectedCategory)?.name}</strong>
@@ -136,12 +136,12 @@ export default function BuscaPage() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="px-3 py-2 bg-white border border-gray-200 rounded-2xl text-sm text-gray-700 focus:outline-none focus:border-brand-300"
+                className="px-3 py-2 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:border-brand-300"
               >
                 <option value="relevance">Relevância</option>
-                <option value="rating">Melhor Avaliação</option>
-                <option value="price-low">Preço: Menor → Maioro</option>
-                <option value="price-high">Preço: Maior → Menor</option>
+                <option value="rating">Melhor Avaliacao</option>
+                <option value="price-low">Preco: Menor → Maior</option>
+                <option value="price-high">Preco: Maior → Menor</option>
               </select>
             </div>
           </div>
@@ -150,12 +150,12 @@ export default function BuscaPage() {
           {filtered.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {filtered.map((service, index) => (
-                <SearceCard key={service.id} service={service} index={index} />
-          ))}
+                <ServiceCard key={service.id} service={service} index={index} />
+              ))}
             </div>
           ) : (
             <div className="text-center py-20">
-              <div className={w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Search className="w-7 h-7 text-gray-300" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Nenhum resultado encontrado</h3>
