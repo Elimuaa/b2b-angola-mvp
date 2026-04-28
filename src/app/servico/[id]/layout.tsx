@@ -1,5 +1,11 @@
-import { ReactNode } from "react";
+import { services } from "@/data/mock";
 
-export default function ServiceLayout({ children }: { children: ReactNode }) {
-  return <div className="bg-gray-50/30">{children}</div>;
+export async function generateStaticParams() {
+  return services.map((service) => ({
+    id: service.id,
+  }));
+}
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
 }
