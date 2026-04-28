@@ -246,7 +246,7 @@ export const services: Service[] = [
   {
     id: "4",
     title: "Consultoria Empresarial e Plano de Negocios",
-    description: "Ajudo empresas a estruturar planos de negocio solidos, adequados à realidade economica angolana.",
+    description: "Ajudo empresas a estruturar planos de negocio solidos, adequados a realidade economica angolana.",
     shortDescription: "Planeamento estrategico para negocios em Angola",
     category: "consultoria",
     subcategory: "Estrategia",
@@ -373,7 +373,7 @@ export const conversations: Conversation[] = [
     lastMessageTime: "14:32",
     unreadCount: 2,
     messages: [
-      { id: "m1", senderId: "me", text: "Ola Joao! Vi o seu servico de desenvolvimento web e gostaria de saber mais.", timestamp: "14:20", isRead: true },
+      { id: "m1", senderId: "me", text: "Ola Joao! Vi o seu servico de development web e gostaria de saber mais.", timestamp: "14:20", isRead: true },
       { id: "m2", senderId: "s1", text: "Ola! Claro, terei todo o gosto em ajudar. Qual e o seu projeto?", timestamp: "14:22", isRead: true },
       { id: "m3", senderId: "me", text: "Preciso de um e-commerce para a minha empresa. Com pagamento via Multicaixa Express.", timestamp: "14:25", isRead: true },
       { id: "m4", senderId: "s1", text: "Excelente! Tenho bastante experiencia com e-commerce e integracao Multicaixa.", timestamp: "14:28", isRead: true },
