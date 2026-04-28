@@ -1,1 +1,96 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CmltcG9ydCB7IFN0YXIsIENsb2NrLCBCYWRnZUNoZWNrLCBTcGFya2xlcyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFNlcnZpY2UsIGZvcm1hdEN1cnJlbmN5IH0gZnJvbSAiQC9kYXRhL21vY2siOwoKaW50ZXJmYWNlIFNlcnZpY2VDYXJkUHJvcHMgewogIHNlcnZpY2U6IFNlcnZpY2U7CiAgaW5kZXg6IG51bWJlcjsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2VydmljZUNhcmQoeyBzZXJ2aWNlLCBpbmRleCB9OiBTZXJ2aWNlQ2FyZFByb3BzKSB7CiAgcmV0dXJuICgKICAgIDxtb3Rpb24uZGl2CiAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMzAgfX0KICAgICAgd2hpbGVJblZpZXc9e3sgb3BhY2l0eTogMSwgeTogMCB9fQogICAgICB2aWV3cG9ydD17eyBvbmNlOiB0cnVlIH19CiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNCwgZGVsYXk6IGluZGV4ICogMC4xIH19CiAgICA+CiAgICAgIDxMaW5rIGhyZWY9e2Avc2Vydmljby8ke3NlcnZpY2UuaWR9YH0gY2xhc3NOYW1lPSJncm91cCBibG9jayI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlciBib3JkZXItZ3JheS0xMDAgcm91bmRlZC0zeGwgb3ZlcmZsb3ctaGlkZGVuIGhvdmVyOnNoYWRvdy1yeGwgaG92ZXI6c2hhZG93LWdyYXktMjAwLzYwIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTUwMCBob3ZlcjotdHJhbnNsYXRlLXktMSI+CiAgICAgICAgICB7LyogSW1hZ2UgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgYXNwZWN0LVsxNi8xMF0gb3ZlcmZsb3ctaGlkZGVuIGJnLWdyYXktMTAwIj4KICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgIHNyYz17c2VydmljZS5pbWFnZX0KICAgICAgICAgICAgICBhbHQ9e3NlcnZpY2UudGl0bGV9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciBncm91cC1ob3ZlcjpzY2FsZS0xMDUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNzAwIgogICAgICAgICAgICAvPgogICAgICAgICAgICB7c2VydmljZS5pc0Rlc3RhcXVlICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTMgbGVmdC0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcHgtMyBweS0xIGJnLXdoaXRlLzkwIGJhY2tkcm9wLWJsdXItc20gcm91bmRlZC1mdWxsIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1hbWJlci02MDAgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgIDxTcGFya2xlcyBjbGFzc05hbWU9InctMyBoLTMiIC8+CiAgICAgICAgICAgICAgICBEZXN0YXF1ZQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgICB7c2VydmljZS5pc1ZlcmlmaWVkICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTMgcmlnaHQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSBweC0yLjUgcHktMSBiZy1icmFuZC01MDAvOTAgYmFja2Ryb3AtYmx1ci1zbSByb3VuZGVkLWZ1bGwwIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSBzaGFkb3ctc20iPgogICAgICAgICAgICAgICAgPEJhZGdlQ2hlY2sgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgICAgVmVyaWZpY2FkbwogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIENvbnRlbnQgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC01Ij4KICAgICAgICAgICAgey8qIFNlbGxlciAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yLjUgbWItMyI+CiAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgc3JjPXtzZXJ2aWNlLnNlbGxlci5hdmF0YXJ9CiAgICAgICAgICAgICAgICBhbHQ9e3NlcnZpY2Uuc2VsbGVyLm5hbWV9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtZnVsbCBiZy1ncmF5LTEwMCIKICAgICAgICAgICAgICAgIHdpZHRoPXsyOH0KICAgICAgICAgICAgICAgIGhlaWdodD17Mjh9CiAgICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogMjgsIGhlaWdodDogMjgsIGJvcmRlclJhZGl1czogIjUwJSIgfX0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1ncmF5LTkwMCB0cnVuY2F0ZSI+CiAgICAgICAgICAgICAgICAgIHtzZXJ2aWNlLnNlbGxlci5uYW1lfQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LWdyYXktNDAwIj57c2VydmljZS5zZWxsZXIudGl0bGV9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtzZXJ2aWNlLnNlbGxlci5pc1RvcFNlbGxlciAmJiAoCiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtc2VtaWJvbGQgcHgtMiBweS0wLjUgYmctYW1iZXItNTAgdGV4dC1hbWJlci02MDAgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYW1iZXItMTAwIj4KICAgICAgICAgICAgICAgICAgVE9QCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7LyogVGl0bGUgKi99CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWdyYXktOTAwIGxpbmUtY2xhbXAtMiBtYi0zIGdyb3VwLWhvdmVyOnRleHQtYnJhbmQtNjAwIHRyYW5zaXRpb24tY29sb3JzIGxlYWRpbmctc251ZyI+CiAgICAgICAgICAgICAge3NlcnZpY2UudGl0bGV9CiAgICAgICAgICAgIDwvaDM+CgogICAgICAgICAgICB7LyogUmF0aW5nICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBtYi00Ij4KICAgICAgICAgICAgICA8U3RhciBjbGFzc05hbWU9InctMy41IGgtMy41IGZpbGwtYW1iZXItNDAwIHRleHQtYW1iZXItNDAwIiAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZ3JheS05MDAiPntzZXJ2aWNlLnJhdGluZ308L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZ3JheS00MDAiPih7c2VydmljZS5yZXZpZXdDb3VudH0pPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXgtMSB0ZXh0LWdyYXktMjAwIj7Ctzwvc3Bhbj4KICAgICAgICAgICAgICA8Q2xvY2sgY2xhc3NOYW1lPSJ3LTMgaC0zIHRleHQtZ3JheS00MDAiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZ3JheS00MDAiPntzZXJ2aWNlLmRlbGl2ZXJ5RGF5c30gZGlhczwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIHsvKiBQcmljZSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHQtMyBib3JkZXItdCBib3JkZXItZ3JheS01MCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LWdyYXktNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciI+QSBwYXJ0aXIgZGU8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1ib2xkIHRleHQtZ3JheS05MDAiPgogICAgICAgICAgICAgICAge2Zvcm1hdEN1cnJlbmN5KHNlcnZpY2Uuc3RhcnRpbmdQcmljZSl9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0xpbms+CiAgICA8L21vdGlvbi5kaXY+Cg==
+"use client";
+
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { Star, Clock, BadgeCheck, Sparkles } from "lucide-react";
+import { Service, formatCurrency } from "@/data/mock";
+
+interface ServiceCardProps {
+  service: Service;
+  index: number;
+}
+
+export default function ServiceCard({ service, index }: ServiceCardProps) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+    >
+      <Link href={`/servico/${service.id}`} className="group block">
+        <div className="bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-gray-200/60 transition-all duration-500 hover:-translate-y-1">
+          {/* Image */}
+          <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
+            <img
+              src={service.image}
+              alt={service.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            {service.isDestaque && (
+              <div className="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-xs font-medium text-amber-600 shadow-sm">
+                <Sparkles className="w-3 h-3" />
+                Destaque
+              </div>
+            )}
+            {service.isVerified && (
+              <div className="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 bg-brand-500/90 backdrop-blur-sm rounded-full text-xs font-medium text-white shadow-sm">
+                <BadgeCheck className="w-3 h-3" />
+                Verificado
+              </div>
+            )}
+          </div>
+
+          {/* Content */}
+          <div className="p-5">
+            {/* Seller */}
+            <div className="flex items-center gap-2.5 mb-3">
+              <img
+                src={service.seller.avatar}
+                alt={service.seller.name}
+                className="rounded-full bg-gray-100"
+                width={28}
+                height={28}
+                style={{ width: 28, height: 28, borderRadius: "50%" }}
+              />
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-medium text-gray-900 truncate">
+                  {service.seller.name}
+                </p>
+                <p className="text-[11px] text-gray-400">{service.seller.title}</p>
+              </div>
+              {service.seller.isTopSeller && (
+                <span className="text-[10px] font-semibold px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full border border-amber-100">
+                  TOP
+                </span>
+              )}
+            </div>
+
+            {/* Title */}
+            <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 mb-3 group-hover:text-brand-600 transition-colors leading-snug">
+              {service.title}
+            </h3>
+
+            {/* Rating */}
+            <div className="flex items-center gap-1.5 mb-4">
+              <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+              <span className="text-sm font-semibold text-gray-900">{service.rating}</span>
+              <span className="text-xs text-gray-400">({service.reviewCount})</span>
+              <span className="mx-1 text-gray-200">·</span>
+              <Clock className="w-3 h-3 text-gray-400" />
+              <span className="text-xs text-gray-400">{service.deliveryDays} dias</span>
+            </div>
+
+            {/* Price */}
+            <div className="flex items-center justify-between pt-3 border-t border-gray-50">
+              <span className="text-[11px] text-gray-400 uppercase tracking-wider">A partir de</span>
+              <span className="text-base font-bold text-gray-900">
+                {formatCurrency(service.startingPrice)}
+              </span>
+            </div>
+          </div>
+        </div>
+      </Link>
+    </motion.div>
+  );
+}
