@@ -19,16 +19,16 @@ export default function CTASection() {
           <div className="absolute bottom-0 right-1/4 w-48 h-48 bg-brand-400/15 rounded-full blur-[80px]" />
 
           <div className="relative">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full0 text-xs font-medium text-white/80 mb+X text-xs font-medium text-white/80 mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full text-xs font-medium text-white/80 mb-6">
               <Zap className="w-3.5 h-3.5 text-amber-400" />
               Comece hoje — é grátis
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 leading-tight">
               Pronto para crescer o{" "}
               <span className="text-brand-400">seu negócio?</span>
             </h2>
-            <p className="text-lg text-gray-400 max-w-xb mx-auto mb-8">
+            <p className="text-lg text-gray-400 max-w-xl mx-auto mb-8">
               Junte-se a milhares de profissionais angolanos que já confiam na B2B Angola
             </p>
 
@@ -38,7 +38,7 @@ export default function CTASection() {
                 className="group flex items-center gap-2 px-8 py-3.5 bg-white text-gray-900 text-sm font-semibold rounded-2xl hover:bg-gray-100 transition-all shadow-2xl shadow-white/10"
               >
                 Encontrar Profissional
-                <ArrowRight className="w-4 h-4" group-hover:translate-x-0.5 transition-transform" />
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </Link>
               <button className="flex items-center gap-2 px-8 py-3.5 text-sm font-medium text-white/80 hover:text-white border border-white/20 rounded-2xl hover:bg-white/5 transition-all">
                 Tornar-se Vendedor
