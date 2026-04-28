@@ -137,7 +137,7 @@ export default function MensagensPage() {
               !showMobileChat ? "hidden md:flex" : "flex"
             }`}
           >
-            {activeConvo ? ( 
+            {activeConvo ? (
               <>
                 {/* Chat Header */}
                 <div className="flex items-center gap-3 px-4 sm:px-6 py-4 border-b border-gray-100 bg-white/80 backdrop-blur-xl">
