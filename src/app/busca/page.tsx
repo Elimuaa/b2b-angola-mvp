@@ -138,10 +138,10 @@ export default function BuscaPage() {
                 onChange={(e) => setSortBy(e.target.value)}
                 className="px-3 py-2 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:border-brand-300"
               >
-                <option value="relevance">Relevância</option>
+                <option value="relevance">Relevancia</option>
                 <option value="rating">Melhor Avaliacao</option>
-                <option value="price-low">Preco: Menor → Maior</option>
-                <option value="price-high">Preco: Maior → Menor</option>
+                <option value="price-low">Preco: Menor -> Maior</option>
+                <option value="price-high">Preco: Maior -> Menor</option>
               </select>
             </div>
           </div>
