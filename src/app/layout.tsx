@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "B2B Angola — Marketplace Profissional",
-  description: "A plataforma líder de serviços profissionais B2B em Angola. Conecte-se com freelancers verificados e empresas de confiança.",
-  keywords: ["B2B", "Angola", "marketplace", "freelancer", "serviços", "profissional"],
+  title: "B2B Angola - Marketplace Profissional",
+  description: "A plataforma lider de servicos profissionais B2B em Angola. Conecte-se com freelancers verificados e empresas de confianca.",
+  keywords: ["B2B", "Angola", "marketplace", "freelancer", "servicos", "profissional"],
 };
 
 export default function RootLayout({
