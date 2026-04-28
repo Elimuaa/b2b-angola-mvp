@@ -66,7 +66,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-gray-900 mb-4">Empresa</h4>
             <ul className="space-y-2.5">
-              {["Sobre nós", "Carreiras", "Imprensa", "Blog"].map((item) => (
+              {["Sobre nos", "Carreiras", "Imprensa", "Blog"].map((item) => (
                 <li key={item}>
                   <Link href="#" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">
                     {item}
@@ -78,7 +78,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-gray-900 mb-4">Suporte</h4>
             <ul className="space-y-2.5">
-              {["Central de Ajuda", "Segurança", "Termos de Uso", "Privacidade"].map((item) => (
+              {["Central de Ajuda", "Seguranca", "Termos de Uso", "Privacidade"].map((item) => (
                 <li key={item}>
                   <Link href="#" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">
                     {item}
@@ -90,7 +90,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-gray-900 mb-4">Comunidade</h4>
             <ul className="space-y-2.5">
-              {["Fórum", "Eventos", "Parceiros", "Afiliados"].map((item) => (
+              {["Forum", "Eventos", "Parceiros", "Afiliados"].map((item) => (
                 <li key={item}>
                   <Link href="#" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">
                     {item}
@@ -110,7 +110,7 @@ export default function Footer() {
               <span className="text-white font-bold text-[10px]">B2B</span>
             </div>
             <span className="text-sm text-gray-500">
-              © 2026 B2B Angola. Todos os direitos reservados.
+              (c) 2026 B2B Angola. Todos os direitos reservados.
             </span>
           </div>
           <div className="flex items-center gap-4">

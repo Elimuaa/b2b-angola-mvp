@@ -24,6 +24,7 @@ import {
   UserCheck,
   X,
 } from "lucide-react";
+import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { services, formatCurrency } from "@/data/mock";

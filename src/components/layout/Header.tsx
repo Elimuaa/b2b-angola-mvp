@@ -34,7 +34,7 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Search Bar — Desktop */}
+          {/* Search Bar - Desktop */}
           <div className="hidden md:flex flex-1 max-w-xl mx-8">
             <div
               className={`relative w-full transition-all duration-300 ${
@@ -44,7 +44,7 @@ export default function Header() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
               <input
                 type="text"
-                placeholder="Procurar serviços profissionais..."
+                placeholder="Procurar servicos profissionais..."
                 className={`w-full pl-11 pr-4 py-2.5 bg-gray-50/80 border rounded-2xl text-sm placeholder-gray-400 focus:outline-none transition-all duration-300 ${
                   isSearchFocused
                     ? "border-brand-300 bg-white shadow-lg shadow-brand-500/10 glow-border"
@@ -117,7 +117,7 @@ export default function Header() {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Procurar serviços..."
+                  placeholder="Procurar servicos..."
                   className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-2xl text-sm focus:outline-none focus:border-brand-300 focus:ring-2 focus:ring-brand-100"
                 />
               </div>
@@ -144,7 +144,7 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 <Shield className="w-5 h-5 text-gray-400" />
-                <span className="text-sm font-medium">Segurança & Confiança</span>
+                <span className="text-sm font-medium">Seguranca & Confianca</span>
               </Link>
             </div>
           </motion.div>
