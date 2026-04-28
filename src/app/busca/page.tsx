@@ -140,8 +140,8 @@ export default function BuscaPage() {
               >
                 <option value="relevance">Relevancia</option>
                 <option value="rating">Melhor Avaliacao</option>
-                <option value="price-low">Preco: Menor -> Maior</option>
-                <option value="price-high">Preco: Maior -> Menor</option>
+                <option value="price-low">Preco: Menor &rarr; Maior</option>
+                <option value="price-high">Preco: Maior &rarr; Menor</option>
               </select>
             </div>
           </div>
