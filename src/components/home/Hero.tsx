@@ -1,1 +1,142 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IG1vdGlvbiB9IGZyb20gImZyYW1lci1tb3Rpb24iOwppbXBvcnQgeyBTZWFyY2gsIEFycm93UmlnaHQsIFNoaWVsZCwgU3RhciwgVXNlcnMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSGVybygpIHsKICBjb25zdCBbc2VhcmNoRm9jdXNlZCwgc2V0U2VhcmNoRm9jdXNlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3NlYXJjaFF1ZXJ5LCBzZXRTZWFyY2hRdWVyeV0gPSB1c2VTdGF0ZSgiIik7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9InJlbGF0aXZlIG1pbi1oLVs4NXZoXSBmbGV4IGl0ZW1zLWNlbnRlciBvdmVyZmxvdy1oaWRkZW4gaGVyby1ncmFkaWVudCI+CiAgICAgIHsvKiBCYWNrZ3JvdW5kIGRlY29yYXRpb24gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0yMCAtcmlnaHQtMjAgdy05NiBoLTk2IGJnLWJyYW5kLTIwMC8yMCByb3VuZGVkLWZ1bGwgYmx1ci0zeGwiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1ib3R0b20tMjAgLWxlZnQtMjAgdy04MCBoLTgwIGJnLWJyYW5kLTEwMC8zMCByb3VuZGVkLWZ1bGwgYmx1ci0zeGwiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0xLzIgbGVmdC0xLzIgLXRyYW5zbGF0ZS14LTEvMiAtdHJhbnNsYXRlLXktMS8yIHctWzYwMHB4XSBoLVs2MDBweF0gYmctZ3JhZGllbnQtcmFkaWFsIGZyb20tYnJhbmQtNTAvNTAgdG8tdHJhbnNwYXJlbnQgcm91bmRlZC1mdWxsIiAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0yMCBsZzpweS0yOCB3LWZ1bGwiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy0zeGwgbXgtYXV0byB0ZXh0LWNlbnRlciI+CiAgICAgICAgICB7LyogQmFkZ2UgKi99CiAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDIwIH19CiAgICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgeTogMCB9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjUgfX0KICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtNCBweS0xLjUgYmctd2hpdGUvODAgYmFja2Ryb3AtYmx1ci1zbSBib3JkZXIgYm9yZGVyLWdyYXktMjAwLzUwIHJvdW5kZWQtZnVsbCB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtZ3JheS02MDAgc2hhZG93LXNtIG1iLTgiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy0xLjUgaC0xLjUgYmctZ3JlZW4tNDAwIHJvdW5kZWQtZnVsbCBhbmltYXRlLXB1bHNlIiAvPgogICAgICAgICAgICAgIFBsYXRhZm9ybWEgIzEgZGUgU2VydmnDp29zIEIyQiBlbSBBbmdvbGEKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9tb3Rpb24uZGl2PgoKICAgICAgICAgIHsvKiBIZWFkaW5nICovfQogICAgICAgICAgPG1vdGlvbi5oMQogICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDIwIH19CiAgICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgeTogMCB9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjUsIGRlbGF5OiAwLjEgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBzbTp0ZXh0LTV4bCBsZzp0ZXh0LTZ4bCBmb250LWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1ncmF5LTkwMCBsZWFkaW5nLVsxLjFdIG1iLTYiCiAgICAgICAgICA+CiAgICAgICAgICAgIEVuY29udHJlIG9zIG1lbGhvcmVzeyIgIn0KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWdyYWRpZW50Ij5wcm9maXNzaW9uYWlzPC9zcGFuPnsiICJ9CiAgICAgICAgICAgIGRlIEFuZ29sYQogICAgICAgICAgPC9tb3Rpb24uaDE+CgogICAgICAgICAgey8qIFN1YnRpdGxlICovfQogICAgICAgICAgPG1vdGlvbi5wCiAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjAgfX0KICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNSwgZGVsYXk6IDAuMiB9fQogICAgICAgICAgICBjbGFzc05hbWU9InRleHQtbGcgc206dGV4dC14bCB0ZXh0LWdyYXktNTAwIG1heC13LTJ4bCBteC1hdXRvIG1iLTEwIGxlYWRpbmctcmVsYXhlZCIKICAgICAgICAgID4KICAgICAgICAgICAgQ29uZWN0ZS1zZSBjb20gZnJlZWxhbmNlcnMgdmVyaWZpY2Fkb3MgZSBlbXByZXNhcyBkZSBjb25maWFuw6dhLgogICAgICAgICAgICBQYWdhbWVudG8gc2VndXJvIHZpYSBNdWx0aWNhaXhhIEV4cHJlc3MuCiAgICAgICAgICA8L21vdGlvbi5wPgoKICAgICAgICAgIHsvKiBTZWFyY2ggQmFyICovfQogICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAyMCB9fQogICAgICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC41LCBkZWxheTogMC4zIH19CiAgICAgICAgICAgIGNsYXNzTmFtZT0ibWF4LXctMnhsIG14LWF1dG8gbWItOCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTUwMCAkewogICAgICAgICAgICAgICAgc2VhcmNoRm9jdXNlZAogICAgICAgICAgICAgICAgICA/ICJ0cmFuc2Zvcm0gc2NhbGUtWzEuMDJdIgogICAgICAgICAgICAgICAgICA6ICIiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YHJlbGF0aXZlIGZsZXgtMSBmbGV4IGl0ZW1zLWNlbnRlciBiZy13aGl0ZSByb3VuZGVkLTJ4bCBib3JkZXIgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwICR7CiAgICAgICAgICAgICAgICBzZWFyY2hGb2N1c2VkCiAgICAgICAgICAgICAgICAgID8gImJvcmRlci1icmFuZC0zMDAgc2hhZG93LTJ4bCBzaGFkb3ctYnJhbmQtNTAwLzE1IgogICAgICAgICAgICAgICAgICA6ICJib3JkZXItZ3JheS0yMDAgc2hhZG93LXhsIHNoYWRvdy1ncmF5LTIwMC81MCIKICAgICAgICAgICAgICB9YH0+CiAgICAgICAgICAgICAgICA8U2VhcmNoIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC01IHctNSBoLTUgdGV4dC1ncmF5LTQwMCIgLz4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgICAgICB2YWx1ZT17c2VhcmNoUXVlcnl9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U2VhcmNoUXVlcnkoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iRXg6IERlc2Vudm9sdmltZW50byB3ZWIsIGRlc2lnbiBkZSBsb2dvLCBtYXJrZXRpbmcuLi4iCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHBsLTEzIHByLTQgcHktNCBzbTpweC01IGJnLHRyYW5zcGFyZW50IHRleHQtYmFzZSBwbGFjZWhvbGRlci1ncmF5LTQwMCBmb2N1czpvdXRsaW5lLW5vbmUgcm91bmRlZC0yeGwgcGwtMTQiCiAgICAgICAgICAgICAgICAgIG9uRm9jdXM9eygpID0+IHNldFNlYXJjaEZvY3VzZWQodHJ1ZSl9CiAgICAgICAgICAgICAgICAgIG9uQmx1cj17KCkgPT4gc2V0U2VhcmNoRm9jdXNlZChmYWxzZSl9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgaHJlZj0iL2J1c2NhIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImhpZGRlbiBzbTpmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBtci0yIHB4LTYgcHktMi41IGJnLWdyYWRpZW50LXRvLXIgZnJvbS1icmFuZC01MDAgdG8tYnJhbmQtNjAwIHRleHQtd2hpdGUgdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLXhsIGhvdmVyOmZyb20tYnJhbmQtNjAwIGhvdmVyOnRvLWJyYW5kLTcwMCB0cmFuc2l0aW9uLWFsbCBzaGFkb3ctbGcgc2hhZG93LWJyYW5kLTUwMC8yNSB3aGl0ZXNwYWNlLW5vd3JhcCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgUHJvY3VyYXIKICAgICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtzZWFyY2hGb2N1c2VkICYmICgKICAgICAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCB9fQogICAgICAgICAgICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEgfX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHJvdW5kZWQtMnhsIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGJveFNoYWRvdzogIjAgMCA2MHB4IHJnYmEoMTIsIDE0NywgMjMxLCAwLjEpIiB9fQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBtdC00IHRleHQteHMgdGV4dC1ncmF5LTQwMCI+CiAgICAgICAgICAgICAgPHNwYW4+UG9wdWxhcjo8L3NwYW4+CiAgICAgICAgICAgICAge1siV2Vic2l0ZSIsICJMb2dvIiwgIk1hcmtldGluZyBEaWdpdGFsIiwgIkNvbnN1bHRvcmlhIiwgIkFwcCBNb2JpbGUiXS5tYXAoKHRhZykgPT4gKAogICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAga2V5PXt0YWd9CiAgICAgICAgICAgICAgICAgIGhyZWY9Ii9idXNjYSIKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTEgYmctd2hpdGUvNjAgYm9yZGVyIGJvcmRlci1ncmF5LTIwMC81MCByb3VuZGVkLWZ1bGwiIGhvdmVyOmJnLXdoaXRlIGhvdmVyOmJvcmRlci1ncmF5LTMwMCB0cmFuc2l0aW9uLWFsbCB0ZXh0LWdyYXktNTAwIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7dGFnfQogICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9tb3Rpb24uZGl2PgoKICAgICAgICAgIHsvKiBTdGF0cyAqL30KICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjAgfX0KICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNSwgZGVsYXk6IDAuNCB9fQogICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtOCBzbTpnYXAtMTIgcHQtOCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1ncmF5LTUwMCI+CiAgICAgICAgICAgICAgPFVzZXJzIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWJyYW5kLTUwMCIgLz4KICAgICAgICAgICAgICA8c3Bhbj48c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1ncmF5LTkwMCI+Miw1MDArPC9zdHJvbmc+IFByb2Zpc3Npb25haXM8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWdyYXktNTAwIj4KICAgICAgICAgICAgICA8U3RhciBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1hbWJlci00MDAiIC8+CiAgICAgICAgICAgICAgPHNwYW4+PHN0cm9uZyBjbGFzc05hbWU9InRleHQtZ3JheS05MDAiPjQuODwvc3Ryb25nPiBBdmFsaWHDp8OjbyBNw6lkaWE8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWdyYXktNTAwIj4KICAgICAgICAgICAgICA8U2hpZWxkIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWdyZWVuLTUwMCIgLz4KICAgICAgICAgICAgICA8c3Bhbj48c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1ncmF5LTkwMCI+MTAwJTwvc3Ryb25nPiBTZWd1cm88L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg==
+"use client";
+
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { Search, ArrowRight, Shield, Star, Users } from "lucide-react";
+import Link from "next/link";
+
+export default function Hero() {
+  const [searchFocused, setSearchFocused] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  return (
+    <section className="relative min-h-[85vh] flex items-center overflow-hidden hero-gradient">
+      {/* Background decoration */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 -right-20 w-96 h-96 bg-brand-200/20 rounded-full blur-3xl" />
+        <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-brand-100/30 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-brand-50/50 to-transparent rounded-full" />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 w-full">
+        <div className="max-w-3xl mx-auto text-center">
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 backdrop-blur-sm border border-gray-200/50 rounded-full text-xs font-medium text-gray-600 shadow-sm mb-8">
+              <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
+              Plataforma #1 de Servicos B2B em Angola
+            </span>
+          </motion.div>
+
+          {/* Heading */}
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.1] mb-6"
+          >
+            Encontre os melhores{" "}
+            <span className="text-gradient">profissionais</span>{" "}
+            de Angola
+          </motion.h1>
+
+          {/* Subtitle */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed"
+          >
+            Conecte-se com freelancers verificados e empresas de confianca.
+            Pagamento seguro via Multicaixa Express.
+          </motion.p>
+
+          {/* Search Bar */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="max-w-2xl mx-auto mb-8"
+          >
+            <div
+              className={`relative flex items-center transition-all duration-500 ${
+                searchFocused
+                  ? "transform scale-[1.02]"
+                  : ""
+              }`}
+            >
+              <div className={`relative flex-1 flex items-center bg-white rounded-2xl border transition-all duration-300 ${
+                searchFocused
+                  ? "border-brand-300 shadow-2xl shadow-brand-500/15"
+                  : "border-gray-200 shadow-xl shadow-gray-200/50"
+              }`}>
+                <Search className="absolute left-5 w-5 h-5 text-gray-400" />
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Ex: Desenvolvimento web, design de logo, marketing..."
+                  className="w-full pl-13 pr-4 py-4 sm:py-5 bg-transparent text-base placeholder-gray-400 focus:outline-none rounded-2xl pl-14"
+                  onFocus={() => setSearchFocused(true)}
+                  onBlur={() => setSearchFocused(false)}
+                />
+                <Link
+                  href="/busca"
+                  className="hidden sm:flex items-center gap-2 mr-2 px-6 py-2.5 bg-gradient-to-r from-brand-500 to-brand-600 text-white text-sm font-medium rounded-xl hover:from-brand-600 hover:to-brand-700 transition-all shadow-lg shadow-brand-500/25 whitespace-nowrap"
+                >
+                  Procurar
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+              {searchFocused && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="absolute inset-0 rounded-2xl pointer-events-none"
+                  style={{ boxShadow: "0 0 60px rgba(12, 147, 231, 0.1)" }}
+                />
+              )}
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-2 mt-4 text-xs text-gray-400">
+              <span>Popular:</span>
+              {["Website", "Logo", "Marketing Digital", "Consultoria", "App Mobile"].map((tag) => (
+                <Link
+                  key={tag}
+                  href="/busca"
+                  className="px-3 py-1 bg-white/60 border border-gray-200/50 rounded-full hover:bg-white hover:border-gray-300 transition-all text-gray-500"
+                >
+                  {tag}
+                </Link>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Stats */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 pt-8"
+          >
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              <Users className="w-4 h-4 text-brand-500" />
+              <span><strong className="text-gray-900">2,500+</strong> Profissionais</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              <Star className="w-4 h-4 text-amber-400" />
+              <span><strong className="text-gray-900">4.8</strong> Avaliacao Media</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              <Shield className="w-4 h-4 text-green-500" />
+              <span><strong className="text-gray-900">100%</strong> Seguro</span>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
